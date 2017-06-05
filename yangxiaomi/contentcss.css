@@ -2,11 +2,8 @@
 * @Author: hanjiyun
 * @Date:   2017-06-05 10:27:06
 * @Last Modified by:   hanjiyun
-* @Last Modified time: 2017-06-05 11:32:10
+* @Last Modified time: 2017-06-05 16:00:49
 */
-
-/*scss-lint:disable all*/
-
 
 .status-real-wrapper {
   position: relative;
@@ -17,6 +14,12 @@
   position: absolute;
   right: 20px;
   top: 10px;
-  z-index:1;
+  z-index: -99;
+  opacity: 0;
+}
+
+.status-real-wrapper:hover .open-in-new-tab {
+  z-index: 1;
+  opacity: 1;
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "豆开",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "在新页面打开被转播的原始豆瓣广播",
   "permissions": [],
@@ -13,5 +13,6 @@
       "js" : ["lib/zepto.js", "contentscript.js"],
       "css" : ["contentcss.css"]
     }
-  ]
+  ],
+  "background": { "scripts": ["hot-reload.js"] }
 }
